@@ -8,7 +8,7 @@ class StringTest < Minitest::Test
     name = "alice"
     # In place of the line below, call a method on the name variable
     # defined above to acheive the expected output.
-    actual = name.capitalize
+    actual = nil
     expected = "Alice"
 
     assert_equal expected, actual
@@ -18,7 +18,7 @@ class StringTest < Minitest::Test
     #skip
     name = "aLiCe"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "ALICE"
 
     assert_equal expected, actual
@@ -28,7 +28,7 @@ class StringTest < Minitest::Test
     #skip
     name = "AlIcE"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "alice"
 
     assert_equal expected, actual
@@ -38,7 +38,7 @@ class StringTest < Minitest::Test
     #skip
     rhyme = "peter piper picked a peck of picked peppers"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "sreppep dekcip fo kcep a dekcip repip retep"
 
     assert_equal expected, actual
@@ -48,7 +48,7 @@ class StringTest < Minitest::Test
     #skip
     word = "ticking"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "kicking"
 
     assert_equal expected, actual
@@ -58,7 +58,7 @@ class StringTest < Minitest::Test
     #skip
     word = "ticking"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "clocking"
 
     assert_equal expected, actual
@@ -68,7 +68,7 @@ class StringTest < Minitest::Test
     #skip
     words = "five sleepy kittens"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "fiv* sl**py kitt*ns"
 
     assert_equal expected, actual
@@ -78,7 +78,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello!!"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "Hello!"
 
     assert_equal expected, actual
@@ -88,7 +88,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello!!\n"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "Hello!!"
 
     assert_equal expected, actual
@@ -98,7 +98,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello!!\n\n"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "Hello!!\n"
 
     assert_equal expected, actual
@@ -108,7 +108,7 @@ class StringTest < Minitest::Test
     #skip
     rhyme = "eeny, meeny, miny, moe"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "ny, mny, miny, mo"
 
     assert_equal expected, actual
@@ -118,7 +118,7 @@ class StringTest < Minitest::Test
     #skip
     rhyme = "eeny, meeny, miny, moe"
     # In place of the line below, call a method to achieve the expected output.
-    actual =
+    actual = nil
     expected = "ny, mny, mny, m"
 
     assert_equal expected, actual
@@ -128,7 +128,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of characters in the string
-    actual =
+    actual = nil
     expected = 12
 
     assert_equal expected, actual
@@ -138,7 +138,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello World!\n"
     # In place of the line below, call a method to get the number of characters in the string
-    actual =
+    actual = nil
     expected = 13
 
     assert_equal expected, actual
@@ -148,7 +148,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello       World!"
     # In place of the line below, call a method to get the number of characters in the string
-    actual =
+    actual = nil
     expected = 18
 
     assert_equal expected, actual
@@ -158,7 +158,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of 'o' in the string
-    actual =
+    actual = nil
     expected = 2
 
     assert_equal expected, actual
@@ -168,7 +168,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of vowels in the string
-    actual =
+    actual = nil
     expected = 3
 
     assert_equal expected, actual
@@ -178,7 +178,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello World!"
     # In place of the line below, call a method to check if the string includes 'llo'
-    actual =
+    actual = nil
     expected = true
 
     assert_equal expected, actual
@@ -188,7 +188,7 @@ class StringTest < Minitest::Test
     #skip
     greeting = "Hello World!"
     # In place of the line below, call a method to check if the string includes 'lol'
-    actual =
+    actual = nil
     expected = false
 
     assert_equal expected, actual
@@ -200,7 +200,7 @@ class StringTest < Minitest::Test
     name = "Harry Potter"
     # In place of the line below, use string manipulation to combine the
     #greeting and name variables to acheive the expected outcome
-    actual =
+    actual = nil
     expected = "Hello World, my name is Harry Potter"
 
     assert_equal expected, actual
@@ -208,19 +208,19 @@ class StringTest < Minitest::Test
     # See if you can use another method to achieve the same goal:
     ### I think the .concat method has changed all the greeting variable,
     ### running greeting after this test post the full combined sentence...
-    actual =
+    actual = nil
     expected = "Hello World, my name is Harry Potter"
 
     assert_equal expected, actual
 
     # Again, using a different method:
-    actual =
+    actual = nil
     expected = "Hello World, my name is Harry Potter"
 
     assert_equal expected, actual
 
     # Once more, using a different method:
-    actual =
+    actual = nil
     expected = "Hello World, my name is Harry Potter"
 
     assert_equal expected, actual
@@ -230,7 +230,7 @@ class StringTest < Minitest::Test
     #skip
     phrase = "   \n  \tto the    moon\n\n\t    "
     # In place of the line below, call a method to acheive the expected outcome
-    actual =
+    actual = nil
     expected = "to the    moon"
 
     assert_equal expected, actual
@@ -240,7 +240,7 @@ class StringTest < Minitest::Test
     #skip
     phrase = "   \n  \tto the    moon\n\n\t    "
     # In place of the line below, call a method to acheive the expected outcome
-    actual =
+    actual = nil
     expected = "   \n  \tto the    moon"
 
     assert_equal expected, actual
@@ -250,7 +250,7 @@ class StringTest < Minitest::Test
     #skip
     phrase = "   \n  \tto the    moon\n\n\t    "
     # In place of the line below, call a method to acheive the expected outcome
-    actual = 
+    actual = nil
     expected = "to the    moon\n\n\t    "
 
     assert_equal expected, actual

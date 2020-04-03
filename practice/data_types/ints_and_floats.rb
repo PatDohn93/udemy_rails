@@ -7,7 +7,7 @@ class IntsAndFloatsTests < Minitest::Test
     unlucky = 13
     # Using the two variables defined above,
     # add the lucky number and the unlucky number
-    sum = 
+    sum =  nil
     assert_equal 20, sum
   end
 
@@ -17,7 +17,7 @@ class IntsAndFloatsTests < Minitest::Test
     unlucky = 13
     # Using the two variables defined above,
     # subtract the unlucky from the lucky
-    difference =
+    difference = nil
     assert_equal -6, difference
   end
 
@@ -28,7 +28,7 @@ class IntsAndFloatsTests < Minitest::Test
     # Using the two variables defined above,
     # divide unlucky by lucky
     # NOTE: this is integer division
-    quotient =
+    quotient = nil
     assert_equal 1, quotient
   end
 
@@ -38,7 +38,7 @@ class IntsAndFloatsTests < Minitest::Test
     unlucky = 13
     # Using the two variables defined above,
     # divide unlucky by lucky
-    quotient =
+    quotient = nil
     assert_equal 1.8571428571428572, quotient
   end
 
@@ -48,7 +48,7 @@ class IntsAndFloatsTests < Minitest::Test
     unlucky = 13
     # Using the two variables defined above,
     # find the remainder of the unlucky divided by the lucky
-    remainder =
+    remainder = nil
     assert_equal 6, remainder
   end
 
@@ -57,7 +57,7 @@ class IntsAndFloatsTests < Minitest::Test
     lucky = 7
     # Using the variable defined above,
     # find out if the lucky number is even
-    even =
+    even = nil
     assert_equal false, even
   end
 
@@ -66,7 +66,7 @@ class IntsAndFloatsTests < Minitest::Test
     pi = 3.14
     # Using the variable defined above,
     # round the number to the nearest whole number
-    rounded =
+    rounded = nil
     assert_equal 3, rounded
   end
 
@@ -75,7 +75,7 @@ class IntsAndFloatsTests < Minitest::Test
     pi = 3.14
     # Using the variable defined above,
     # round the number to one decimal place
-    rounded =
+    rounded = nil
     assert_equal 3.1, rounded
   end
 
@@ -86,7 +86,7 @@ class IntsAndFloatsTests < Minitest::Test
     pi = 3.14
     # Using the variable defined above,
     # round the number to the next highest whole number
-    rounded =
+    rounded = nil
     assert_equal 4, rounded
   end
 end
