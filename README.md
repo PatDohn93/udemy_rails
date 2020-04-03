@@ -3,7 +3,7 @@
 Open GIT bash
 
 ```
-cd ~'
+cd ~
 ```
 ```
 cd udemy_rails/
@@ -15,9 +15,6 @@ atom .
 #### CMD prompt:
 Open CMD prompt
 
-```
-cd ~
-```
 ```
 cd udemy_rails/
 ```
