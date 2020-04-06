@@ -12,7 +12,7 @@ class IntsAndFloatsTests < Minitest::Test
   end
 
   def test_2
-    #skip
+    skip
     lucky = 7
     unlucky = 13
     # Using the two variables defined above,
@@ -22,7 +22,7 @@ class IntsAndFloatsTests < Minitest::Test
   end
 
   def test_3
-    #skip
+    skip
     lucky = 7
     unlucky = 13
     # Using the two variables defined above,
@@ -33,7 +33,7 @@ class IntsAndFloatsTests < Minitest::Test
   end
 
   def test_4
-    #skip
+    skip
     lucky = 7
     unlucky = 13
     # Using the two variables defined above,
@@ -43,7 +43,7 @@ class IntsAndFloatsTests < Minitest::Test
   end
 
   def test_5
-    #skip
+    skip
     lucky = 7
     unlucky = 13
     # Using the two variables defined above,
@@ -53,7 +53,7 @@ class IntsAndFloatsTests < Minitest::Test
   end
 
   def test_6
-    #skip
+    skip
     lucky = 7
     # Using the variable defined above,
     # find out if the lucky number is even
@@ -71,7 +71,7 @@ class IntsAndFloatsTests < Minitest::Test
   end
 
   def test_8
-    #skip
+    skip
     pi = 3.14
     # Using the variable defined above,
     # round the number to one decimal place
@@ -82,7 +82,7 @@ class IntsAndFloatsTests < Minitest::Test
 
 
   def test_9
-    #skip
+    skip
     pi = 3.14
     # Using the variable defined above,
     # round the number to the next highest whole number

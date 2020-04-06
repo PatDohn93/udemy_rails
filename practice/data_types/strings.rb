@@ -8,17 +8,17 @@ class StringTest < Minitest::Test
     name = "alice"
     # In place of the line below, call a method on the name variable
     # defined above to acheive the expected output.
-    actual = name.capatalize
+    actual = name.capitalize
     expected = "Alice"
 
     assert_equal expected, actual
   end
 
   def test_2
-    skip
+    #skip
     name = "aLiCe"
     # In place of the line below, call a method to achieve the expected output.
-    actual = nil
+    actual = name.upcase
     expected = "ALICE"
 
     assert_equal expected, actual
