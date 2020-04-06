@@ -8,14 +8,14 @@ class StringTest < Minitest::Test
     name = "alice"
     # In place of the line below, call a method on the name variable
     # defined above to acheive the expected output.
-    actual = nil
+    actual = name.capatalize
     expected = "Alice"
 
     assert_equal expected, actual
   end
 
   def test_2
-    #skip
+    skip
     name = "aLiCe"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -25,7 +25,7 @@ class StringTest < Minitest::Test
   end
 
   def test_3
-    #skip
+    skip
     name = "AlIcE"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -35,7 +35,7 @@ class StringTest < Minitest::Test
   end
 
   def test_4
-    #skip
+    skip
     rhyme = "peter piper picked a peck of picked peppers"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -45,7 +45,7 @@ class StringTest < Minitest::Test
   end
 
   def test_5
-    #skip
+    skip
     word = "ticking"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -55,7 +55,7 @@ class StringTest < Minitest::Test
   end
 
   def test_6
-    #skip
+    skip
     word = "ticking"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -65,7 +65,7 @@ class StringTest < Minitest::Test
   end
 
   def test_7
-    #skip
+    skip
     words = "five sleepy kittens"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -75,7 +75,7 @@ class StringTest < Minitest::Test
   end
 
   def test_8
-    #skip
+    skip
     greeting = "Hello!!"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -85,7 +85,7 @@ class StringTest < Minitest::Test
   end
 
   def test_9
-    #skip
+    skip
     greeting = "Hello!!\n"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -95,7 +95,7 @@ class StringTest < Minitest::Test
   end
 
   def test_10
-    #skip
+    skip
     greeting = "Hello!!\n\n"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -105,7 +105,7 @@ class StringTest < Minitest::Test
   end
 
   def test_11
-    #skip
+    skip
     rhyme = "eeny, meeny, miny, moe"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -115,7 +115,7 @@ class StringTest < Minitest::Test
   end
 
   def test_12
-    #skip
+    skip
     rhyme = "eeny, meeny, miny, moe"
     # In place of the line below, call a method to achieve the expected output.
     actual = nil
@@ -125,7 +125,7 @@ class StringTest < Minitest::Test
   end
 
   def test_13
-    #skip
+    skip
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of characters in the string
     actual = nil
@@ -135,7 +135,7 @@ class StringTest < Minitest::Test
   end
 
   def test_14
-    #skip
+    skip
     greeting = "Hello World!\n"
     # In place of the line below, call a method to get the number of characters in the string
     actual = nil
@@ -145,7 +145,7 @@ class StringTest < Minitest::Test
   end
 
   def test_15
-    #skip
+    skip
     greeting = "Hello       World!"
     # In place of the line below, call a method to get the number of characters in the string
     actual = nil
@@ -155,7 +155,7 @@ class StringTest < Minitest::Test
   end
 
   def test_16
-    #skip
+    skip
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of 'o' in the string
     actual = nil
@@ -165,7 +165,7 @@ class StringTest < Minitest::Test
   end
 
   def test_17
-    #skip
+    skip
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of vowels in the string
     actual = nil
@@ -175,7 +175,7 @@ class StringTest < Minitest::Test
   end
 
   def test_18
-    #skip
+    skip
     greeting = "Hello World!"
     # In place of the line below, call a method to check if the string includes 'llo'
     actual = nil
@@ -185,7 +185,7 @@ class StringTest < Minitest::Test
   end
 
   def test_19
-    #skip
+    skip
     greeting = "Hello World!"
     # In place of the line below, call a method to check if the string includes 'lol'
     actual = nil
@@ -195,7 +195,7 @@ class StringTest < Minitest::Test
   end
 
   def test_20
-    #skip
+    skip
     greeting = "Hello World, my name is"
     name = "Harry Potter"
     # In place of the line below, use string manipulation to combine the
@@ -227,7 +227,7 @@ class StringTest < Minitest::Test
   end
 
   def test_21
-    #skip
+    skip
     phrase = "   \n  \tto the    moon\n\n\t    "
     # In place of the line below, call a method to acheive the expected outcome
     actual = nil
@@ -237,7 +237,7 @@ class StringTest < Minitest::Test
   end
 
   def test_22
-    #skip
+    skip
     phrase = "   \n  \tto the    moon\n\n\t    "
     # In place of the line below, call a method to acheive the expected outcome
     actual = nil
@@ -247,7 +247,7 @@ class StringTest < Minitest::Test
   end
 
   def test_23
-    #skip
+    skip
     phrase = "   \n  \tto the    moon\n\n\t    "
     # In place of the line below, call a method to acheive the expected outcome
     actual = nil
