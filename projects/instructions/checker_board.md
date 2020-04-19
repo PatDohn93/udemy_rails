@@ -5,7 +5,7 @@ Create a file called checker_board.rb and within that file, write a program that
 ```
 X X X  
  X X X  
-X X X  
+X X X
  X X X  
 X X X  
  X X X
